@@ -1,0 +1,1773 @@
+body {
+    margin: 0;
+    background-color: #05090A;
+    height: 100vh;
+    width: 100%;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.headerContainer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.mainMenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btnMenu {
+    background-color: #00000000;
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+.imageMenu {
+    width: 90px;
+    height: 90px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    width: 700px;
+    box-shadow: 5px 5px 10px #473425;
+    background-color: #4734256d;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.linkMenu {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-shadow: 20px 13px 10px #05090A;
+}
+
+
+.homeContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.meditImage {
+    width: 100%;
+}
+
+.titleContainer {
+    position: absolute;
+    color: #ffffff;
+    top: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titleContainer h1 {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 144px;
+    letter-spacing: 0.2em;
+    text-shadow: 20px 15px 13px #473425;
+    font-family: 'Alumni Sans', sans-serif;
+    margin: 20px;
+}
+
+.titleContainer h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ellipseContainer {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ellipse {
+    position: absolute;
+    background: #05090A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipseOne {
+    width: 500px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 15px -9px 22px 14px #473425;
+}
+
+.ellipseTwo {
+    width: 450px;
+    height: 450px;
+    left: 30%;
+    top: 50%;
+    box-shadow: -21px 0px 21px 10px #473425;
+}
+
+.ellipseThree {
+    width: 550px;
+    height: 550px;
+    right: 0px;
+    top: 15%;
+    box-shadow: 0px 21px 36px 20px #473425;
+} 
+
+
+.ellipse p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 0.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.courseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleCourse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    text-align: center;
+    margin-top: 200px;
+    width: 1200px;
+}
+
+.titleCourse h2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 61px;
+    letter-spacing: 0.1em;
+    text-shadow: 20px 15px 13px #473425;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+.titleCourse h3 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 0.1em;
+}
+
+.blokContainer {
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blokCourse {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #05090A;
+    box-shadow: 0px 0px 20px 20px #473425;
+    border-radius: 30px;
+    padding: 40px;
+    width: 1100px;
+    height: 500px;
+}
+
+.ellipseBlok {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #05090A;
+    box-shadow: 0px 0px 20px 20px #473425;
+}
+
+.ellipseBlok button {
+    background-color: #00000000;
+    border: none;
+}
+
+.ellipseLeft {
+    top: 200px;
+    left: -100px;
+}
+
+.ellipseRight {
+    top: 200px;
+    right: -100px;
+}
+
+.imageCourse {
+    width: 400px;
+    height: 400px;
+}
+
+.discribeCourse {
+    font-family: 'Montserrat';
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;  
+    color: #FFFFFF;
+    width: 450px;
+}
+
+.discribeCourse h4 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+.discribeCourse p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.buyContainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Montserrat';
+    letter-spacing: 0.1em;  
+}
+
+.buyContainer p {
+    color: #FB0606;
+    align-self: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.buyContainer button {
+    width: 224px;
+    height: 70px;
+    background: #FFA902;
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.storeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 200px;
+}
+
+.buttons button {
+    background-color: #00000000;
+    color: #ffffff;
+    border: none;
+    text-shadow: 20px 15px 13px #473425;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 60px;
+}
+
+.productsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    background: #05090A;
+    box-shadow: 0px 0px 15px 15px #473425;
+    border-radius: 30px;
+    width: 300px;
+    height: 750px;
+}
+
+.productImage {
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.productDescribe {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    width: 300px;
+    height: 250px;
+}
+
+.productDescribe h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.productDescribe p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.productDescribe button {
+    background-color: #00000000;
+    color: #4761E4;
+    font-size: 15px;
+    border: none;
+}
+
+.buyProduct {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Montserrat';
+    letter-spacing: 0.1em; 
+    gap: 20px;
+}
+
+.buyProduct p {
+    color: #FB0606;
+    align-self: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+.buyProduct button {
+    width: 100px;
+    height: 50px;
+    background: #FFA902;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.communicationContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    gap: 50px;
+}
+
+.contactItem {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat';
+    letter-spacing: 0.1em;
+}
+
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.contact h3 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.contact p {
+    font-weight: 400;
+    font-size: 20px;
+    align-self: center;
+    margin: 0;
+}
+
+.iconContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.iconContainer img {
+    width: 70px;
+    height: 70px;
+}
+
+.message {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #05090A;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px 20px #473425;
+}
+
+.message p {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+
+@media all and (max-width: 1700px) {
+    .headerContainer {
+        margin-top: 40px;
+    }
+
+    .titleContainer {
+        top: 500px;
+    }
+    
+    .titleContainer h1 {
+        font-size: 90px;
+        line-height: 130px;
+    }
+    
+    .titleContainer h3 {
+        line-height: 30px;
+    }
+
+    .ellipseOne {
+        width: 450px;
+        height: 450px;
+    }
+    
+    .ellipseTwo {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .ellipseThree {
+        width: 500px;
+        height: 500px;
+    } 
+    
+    .ellipse p {
+        font-size: 35px;
+        padding: 35px;
+    }
+}
+
+@media all and (max-width: 1500px) {
+    .headerContainer {
+        margin-top: 30px;
+    }
+
+    .titleContainer {
+        top: 450px;
+    }
+    
+    .titleContainer h1 {
+        line-height: 120px;
+    }
+    
+    .titleContainer h3 {
+        line-height: 25px;
+    }
+
+    .ellipseOne {
+        width: 400px;
+        height: 400px;
+
+    }
+    
+    .ellipseTwo {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .ellipseThree {
+        width: 450px;
+        height: 450px;
+    } 
+    
+    .ellipse p {
+        font-size: 30px;
+        padding: 30px;
+    }
+        
+    .titleCourse {
+        margin-top: 150px;
+        width: 1000px;
+    }
+    
+    
+    .titleCourse h3 {
+        font-weight: 400;
+    }
+    
+    .blokContainer {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .blokCourse {
+        padding: 40px;
+        width: 1000px;
+        height: 500px;
+    }
+    
+    .ellipseBlok {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .ellipseLeft {
+        top: 200px;
+        left: -100px;
+    }
+
+    .ellipseRight {
+        top: 200px;
+        right: -100px;
+    }
+    
+    .imageCourse {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .discribeCourse {
+        width: 400px;
+    }
+    
+    .discribeCourse h4 {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 0px;
+    }
+
+    .discribeCourse p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .buyContainer p {
+        font-size: 25px;
+    }
+    
+    .buyContainer button {
+        width: 224px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    .contact h3 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .contact p {
+        font-weight: 400;
+        font-size: 15px;
+        align-self: center;
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .headerContainer {
+        margin-top: 20px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .imageMenu {
+        width: 80px;
+        height: 80px;
+    }
+
+    .link {
+        font-size: 25px;
+    }
+
+    .titleContainer {
+        top: 400px;
+    }
+    
+    .titleContainer h1 {
+        line-height: 90px;
+    }
+    
+    .titleContainer h3 {
+        line-height: 20px;
+    }
+
+    .ellipseOne {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .ellipseTwo {
+        width: 350px;
+        height: 350px;
+        left: 20%;
+    }
+    
+    .ellipseThree {
+        width: 450px;
+        height: 450px;
+    } 
+
+    .titleCourse {
+        margin-top: 150px;
+        width: 800px;
+    }
+
+    .blokContainer {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .blokCourse {
+        padding: 40px;
+        width: 800px;
+        height: 400px;
+    }
+    
+    .ellipseBlok {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .ellipseLeft {
+        top: 170px;
+        left: -80px;
+    }
+
+    .ellipseRight {
+        top: 170px;
+        right: -80px;
+    }
+    
+    .imageCourse {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .discribeCourse {
+        width: 300px;
+    }
+    
+    .discribeCourse h4 {
+        margin: 5px;
+        line-height: 30px;
+    }
+
+    .discribeCourse p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .buyContainer p {
+        font-size: 20px;
+    }
+    
+    .buyContainer button {
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .headerContainer {
+        margin-top: 20px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .imageMenu {
+        width: 60px;
+        height: 60px;
+    }
+
+    .link {
+        font-size: 20px;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+    
+    li {
+        width: 600px;
+    }
+
+    .linkMenu {
+        font-size: 25px;
+    }
+
+    .titleContainer {
+        top: 300px;
+    }
+    
+    .titleContainer h1 {
+        line-height: 90px;
+        font-size: 70px;
+    }
+    
+    .titleContainer h3 {
+        line-height: 15px;
+        font-size: 25px;
+    }
+
+    .ellipseOne {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .ellipseTwo {
+        width: 300px;
+        height: 300px;
+        left: 20%;
+    }
+    
+    .ellipseThree {
+        width: 400px;
+        height: 400px;
+    } 
+    
+    .ellipse p {
+        font-size: 25px;
+        padding: 25px;
+        font-weight: 400;
+    }
+}
+
+@media all and (max-width: 1050px) {
+
+    .menu {
+        gap: 13px;
+    }
+    
+    li {
+        width: 500px;
+        padding: 8px;
+    }
+
+    .linkMenu {
+        font-size: 25px;
+    }
+
+    .ellipseTwo {
+        width: 300px;
+        height: 300px;
+        left: 15%;
+        top: 35%
+    }
+
+    .titleCourse {
+        margin-top: 100px;
+    }
+    
+    .titleCourse h2 {
+        font-weight: 500;
+        font-size: 50px;
+        margin: 10px;
+    }
+    
+    .titleCourse h3 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    .blokCourse {
+        width: 720px;
+    }
+    
+    .imageCourse {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .discribeCourse {
+        width: 300px;
+    }
+    
+    .discribeCourse h4 {
+        margin: 5px;
+        line-height: 30px;
+    }
+
+    .discribeCourse p {
+        font-size: 15px;
+    }
+
+}
+
+@media all and (max-width: 920px) {
+    .menu {
+        gap: 10px;
+    }
+    
+    li {
+        width: 400px;
+    }
+
+    .linkMenu {
+        font-size: 20px;
+    }
+
+    .mainMenu {
+        gap: 20px;
+    }
+
+    .headerContainer {
+        margin-top: 20px;
+    }
+
+    .titleContainer {
+        top: 250px;
+    }
+    
+    .titleContainer h1 {
+        line-height: 50px;
+        font-size: 60px;
+    }
+    
+    .titleContainer h3 {
+        line-height: 0px;
+        font-size: 20px;
+    }
+
+    .ellipseContainer {
+        height: 75vh;
+    }
+
+    .ellipseOne {
+        width: 280px;
+        height: 280px;
+        box-shadow: 15px -9px 23px 4px #473425;
+    }
+    
+    .ellipseTwo {
+        width: 250px;
+        height: 250px;
+        top: 45%;
+        left: 15%;
+        box-shadow: -15px 0px 21px 4px #473425;
+    }
+    
+    .ellipseThree {
+        width: 320px;
+        height: 320px;
+        top: 10%;
+        box-shadow: 0px 21px 36px 8px #473425;
+    } 
+    
+    .ellipse p {
+        font-size: 20px;
+        padding: 20px;
+        font-weight: 400;
+    }
+    
+    .titleCourse {
+        margin-top: 100px;
+        width: 580px;
+    }
+
+    .blokContainer {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .blokCourse {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        width: 500px;
+        height: 700px;
+    }
+    
+    .ellipseBlok {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .ellipseLeft {
+        top: 320px;
+        left: -60px;
+    }
+    
+    .ellipseRight {
+        top: 320px;
+        right: -60px;
+    }
+
+    .imageCourse {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .discribeCourse {
+        width: 350px;
+    }
+
+    .buttons {
+        margin-top: 100px;
+    }
+    
+    .buttons button {
+        font-size: 40px;
+    }
+    
+    .productsContainer {
+        gap: 30px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .product {
+        width: 250px;
+        height: 500px;
+    }
+    
+    .productImage {
+        width: 200px;
+        height: 250px;
+    }
+    
+    .productDescribe {
+        width: 250px;
+        height: 200px;
+    }
+    
+    .productDescribe h3 {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 24px;
+        margin: 5px;
+    }
+    
+    .productDescribe p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    .productDescribe button {
+        font-size: 13px;
+    }
+    
+    .buyProduct {
+        gap: 20px;
+    }
+    
+    .buyProduct p {
+        font-size: 13px;
+    }
+    
+    .buyProduct button {
+        width: 80px;
+        height: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .headerContainer {
+        margin-top: 15px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .imageMenu {
+        width: 40px;
+        height: 40px;
+    }
+
+    .link {
+        font-size: 15px;
+    }
+
+    .titleContainer {
+        top: 200px;
+    }
+    
+    .titleContainer h1 {
+        line-height: 40px;
+        font-size: 40px;
+    }
+    
+    .titleContainer h3 {
+        font-size: 15px;
+    }
+
+    .ellipseContainer {
+        height: 60vh;
+    }
+
+    .ellipseOne {
+        width: 240px;
+        height: 240px;
+    }
+    
+    .ellipseTwo {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .ellipseThree {
+        width: 280px;
+        height: 280px;
+    } 
+    
+    .ellipse p {
+        font-size: 15px;
+        padding: 15px;
+    }
+    .contact h3 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .contact p {
+        font-weight: 400;
+        font-size: 15px;
+        align-self: center;
+        margin: 0;
+    }
+
+    .iconContainer img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .message {
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px 10px #473425;
+    }
+    
+    .message p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .menu {
+        gap: 8px;
+    }
+    
+    li {
+        width: 300px;
+        padding: 5px;
+    }
+
+    .linkMenu {
+        font-size: 20px;
+    }
+
+    .headerContainer {
+        margin-top: 15px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .imageMenu {
+        width: 40px;
+        height: 40px;
+    }
+
+    .link {
+        font-size: 15px;
+    }
+
+    .mainMenu {
+        gap: 10px;
+    }
+
+    .titleContainer {
+        top: 190px;
+    }
+    
+    .titleContainer h1 {
+        line-height: 30px;
+    }
+
+    .ellipseContainer {
+        height: 55vh;
+    }
+
+    .ellipseOne {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .ellipseTwo {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .ellipseThree {
+        width: 240px;
+        height: 240px;
+    } 
+
+    .titleCourse {
+        margin-top: 60px;
+        width: 480px;
+    }
+    
+    .blokCourse {
+        padding: 40px;
+        width: 400px;
+    }
+
+    .imageCourse {
+        width: 300px;
+        height: 300px;
+    }
+    .contactContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .contactItem {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .contact {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact h3 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .contact p {
+        font-weight: 400;
+        font-size: 15px;
+        align-self: center;
+        margin: 0;
+    }
+
+    .message {
+        width: 80%;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    body {
+        height: 80vh;
+    }
+    .headerContainer {
+        margin-top: 10px;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .imageMenu {
+        width: 30px;
+        height: 30px;
+    }
+
+    .mainMenu {
+        display: none;
+    }
+
+    .titleContainer {
+        top: 150px;
+    }
+    
+    .titleContainer h1 {
+        line-height: 20px;
+        font-size: 30px;
+    }
+
+    .titleContainer h3 {
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .ellipseContainer {
+        height: 40vh;
+    }
+
+    .ellipseOne {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .ellipseTwo {
+        width: 130px;
+        height: 130px;
+        top: 60%;
+    }
+    
+    .ellipseThree {
+        width: 200px;
+        height: 200px;
+    } 
+
+    .ellipse p {
+        font-size: 13px;
+        padding: 15px;
+    }
+
+    .titleCourse {
+        margin-top: 50px;
+        width: 400px;
+    }
+
+    .titleCourse h2 {
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+    .titleCourse h3 {
+        font-size: 15px;
+    }
+    
+    .blokCourse {
+        padding: 20px;
+        width: 300px;
+    }
+
+    .ellipseBlok {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .ellipseLeft {
+        left: -50px;
+    }
+    
+    .ellipseRight {
+        right: -50px;
+    }
+
+    .imageCourse {
+        width: 280px;
+        height: 280px;
+    }
+    
+    .discribeCourse {
+        width: 280px;
+    }
+
+    .buttons {
+        margin-top: 60px;
+    }
+    
+    .buttons button {
+        font-size: 25px;
+    }
+    
+    .productsContainer {
+        gap: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .product {
+        width: 240px;
+        height: 480px;
+        margin-bottom: 20px;
+    }
+    
+    .productImage {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    
+    .productDescribe {
+        width: 200px;
+        height: 170px;
+    }
+    
+    .productDescribe h3 {
+        font-weight: 500;
+        font-size: 15px;
+        margin: 0px;
+    }
+    
+    .productDescribe p {
+        line-height: 15px;
+        margin: 5px;
+    }
+    
+}
+
+@media all and (max-width: 450px) {
+    .menu {
+        gap: 25px;
+        background-color: #05090A;
+    }
+    
+    li {
+        width: 200px;
+        padding: 10px;
+        background-color: #473425;
+    }
+
+    .linkMenu {
+        font-size: 20px;
+    }
+
+    .titleContainer {
+        top: 120px;
+    }
+    
+    .titleContainer h1 {
+        line-height: 10px;
+        font-size: 25px;
+    }
+
+    .titleContainer h3 {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+    .ellipseOne {
+        box-shadow: 9px -9px 20px 2px #473425;
+    }
+    
+    .ellipseTwo {
+        top: 120%;
+        box-shadow: -10px 0px 21px 4px #473425;
+    }
+    
+    .ellipseThree {
+        top: 40%;
+        box-shadow: 0px 10px 36px 8px #473425;
+    } 
+
+    .ellipse p {
+        font-size: 13px;
+        padding: 13px;
+    }
+
+    .titleCourse {
+        margin-top: 50px;
+        width: 400px;
+    }
+
+    .titleCourse h2 {
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+    .titleCourse h3 {
+        font-size: 15px;
+    }
+    
+    .blokCourse {
+        width: 280px;
+        box-shadow: 0px 0px 20px 10px #473425;
+    }
+
+    .ellipseBlok {
+        box-shadow: 0px 0px 20px 10px #473425;
+    }
+
+    .imageCourse {
+        width: 260px;
+        height: 260px;
+    }
+    
+    .discribeCourse {
+        width: 260px;
+    }
+
+    .buyContainer p {
+        font-size: 15px;
+    }
+    
+    .buyContainer button {
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contactItem {
+        width: 80%;
+    }
+
+
+    .contact h3 {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    
+    .contact p {
+        font-weight: 400;
+        font-size: 13px;
+        align-self: center;
+    }
+
+    .message {
+        padding: 15px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .logo {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .imageMenu {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .titleContainer {
+        top: 120px;
+    }
+    
+    .titleContainer h1 {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .titleContainer h3 {
+        font-size: 10px;
+    }
+
+    .ellipseOne {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .ellipseTwo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .ellipseThree {
+        width: 160px;
+        height: 160px;
+        top: 50%;
+    } 
+
+    .ellipse p {
+        font-size: 13px;
+    }
+
+    .titleCourse {
+        width: 280px;
+    }
+
+    .titleCourse h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .titleCourse h3 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .blokContainer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .blokCourse {
+        width: 240px;
+        height: 600px;
+    }
+
+    .ellipseBlok {
+        width: 80px;
+        height: 80px;
+    }
+
+    .ellipseLeft {
+        top: 300px;
+        left: -40px;
+    }
+
+    .ellipseRight {
+        top: 300px;
+        right: -40px;
+    }
+
+    .imageCourse {
+        width: 240px;
+        height: 240px;
+    }
+    
+    .discribeCourse {
+        width: 240px;
+    }
+
+    .discribeCourse h4 {
+        font-size: 20px;
+    }
+
+    .discribeCourse p {
+        font-size: 13px;
+    }
+    .buttons {
+        margin-top: 50px;
+        gap: 0px;
+    }
+    
+    .buttons button {
+        font-size: 18px;
+    }
+    
+    .productsContainer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .titleContainer {
+        top: 100px;
+    }
+
+    .ellipseOne {
+        width: 120px;
+        height: 120px;
+        box-shadow: 9px -9px 20px 2px #473425;
+    }
+    
+    .ellipseTwo {
+        width: 100px;
+        height: 100px;
+        top: 90%;
+        box-shadow: -9px 0px 21px 2px #473425;
+    }
+    
+    .ellipseThree {
+        width: 130px;
+        height: 130px;
+        top: 30%;
+        box-shadow: 0px 1 0px 36px 4px #473425;
+    } 
+
+    .ellipse p {
+        font-size: 10px;
+    }
+
+    .titleCourse {
+        width: 260px;
+    }
+
+    .blokContainer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .blokCourse {
+        width: 220px;
+        height: 600px;
+    }
+
+    .ellipseBlok {
+        width: 60px;
+        height: 60px;
+    }
+
+    .arrow {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ellipseLeft {
+        top: 300px;
+        left: -30px;
+    }
+
+    .ellipseRight {
+        top: 300px;
+        right: -30px;
+    }
+
+    .imageCourse {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .discribeCourse {
+        width: 240px;
+    }
+
+    .discribeCourse h4 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .discribeCourse p {
+        font-size: 13px;
+        line-height: 13px;
+        font-weight: 300;
+    }
+
+    .contactContainer {
+        margin-top: 60px;
+    }
+
+    .iconContainer {
+        margin-top: 10px;
+    }
+
+    .iconContainer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .message {
+        padding: 5px;
+    }
+
+    .message p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
